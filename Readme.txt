@@ -5,3 +5,4 @@ create a new git
 test merge of two branch
 git aa
 fix bug-101
+push or commit
