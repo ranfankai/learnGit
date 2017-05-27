@@ -1,0 +1,22 @@
+1、快捷键
+
+Crtl+Alt+H  查看调用链
+Crtl+Q 查看函数定义
+Ctrl + Alt + T        用*来围绕选中的代码行（ * 包括if、while、try catch等）
+Ctrl + W   当光标的位置在双引号内的字符串中时，会先选中这个字符串，然后是等号右边的表达式，再是整个句子。
+Shift + F6 从定义变量名
+Crtl + shift + F  全局搜索关键词
+Crtl + shift + N  全局搜索文件
+
+
+2、问题记录
+
+问题1：Idea 从git引入项目不可编译（文件有红色j下标）
+解决： 关闭项目，删除项目文件夹下.idea文件夹，重新打开项目，指定gradle（本地）
+
+问题2： Android项目出现R文件找不到
+解决： 	Build->clean或rebuild project
+
+3： 将本地已添加git的项目关联到远程git服务器
+$ git remote add origin git@192.168.245.128:/home/git/xxx-project.git
+执行git push将代码同步上去
